@@ -4,55 +4,47 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About Waffles</title>
-  <link rel="stylesheet" href="style.css">
-  <style>
-
-  </style>
+  <title>About Waffles - Waffle World</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="shortcut icon" href="./assets/waffle-favicon.png" type="image/x-icon" />
 </head>
 
 <body>
-
-  <nav class="nv">
-    <div class="nv-l">🧇 WaffleZone</div>
-    <ul class="nv-r">
-      <li><a href="about.html" class="lnk">About Waffles</a></li>
-      <li><a href="index.html" class="lnk">Build Yours</a></li>
+  <nav class="navbar">
+    <div class="navbar-title">🧇 Waffle World</div>
+    <ul class="navbar-links">
+      <li><a href="./about.html" class="nav-link">About Waffles</a></li>
+      <li><a href="./index.html" class="nav-link">Build Yours</a></li>
     </ul>
   </nav>
 
-  <div class="abt">
-    <h2>What's So Special About Waffles? 🧇</h2>
+  <div class="about-section">
+    <h2>Why Waffles Are Simply the Best 🧇</h2>
+    <img src="./assets/waffless.jpg" alt="A stack of delicious waffles" />
 
-    <img
-      src="https://images.unsplash.com/photo-1619674072044-da7ecf3b17cd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d2FmZmxlc3xlbnwwfHwwfHx8MA%3D%3D">
-
-    <button onclick="fact()" class="link-btn">Surprise Me with a Waffle Fact!</button>
-
-
-    <button onclick="mood()" class="link-btn">What Suits My Mood?</button>
+    <button onclick="fact()" class="action-button">Surprise Me with a Waffle Fact!</button>
+    <button onclick="mood()" class="action-button">What Suits My Mood?</button>
 
     <p>
-      waffles are like not just for breakfast because they are crunchy and soft at the same time and they come from i
-      think europe or some place like that and now people eat it everywhere with maple syrup or even chicken which is
-      kinda weird but cool
+      Waffles are the perfect blend of crispy edges and soft centers, born in medieval Europe and now beloved worldwide.
+      Whether you like them sweet or savory, their grid-perfect design is made to hold all your favorite toppings.
     </p>
 
     <p>
-      and you can put stuff on them and make stacks and they look fun and taste really good i like the sweet ones but i
-      think some people like them salty which is also ok i guess
+      From breakfast to dessert, waffles are endlessly customizable. Go classic with maple syrup, bold with fried
+      chicken, or fruity with fresh berries. No matter your craving, there’s a waffle stack for that!
     </p>
 
-    <div class="fun" id="so">
-      <span>Fun Spread Fact:</span> did you know waffle is also a verb and also in javascript they use some dots thingy
-      called spread and its kinda confusing but also smart
+    <div class="fun-fact-box" id="so">
+      <span>Waffle Wordplay:</span> Did you know "waffle" can mean to go back and forth indecisively? In JavaScript, we
+      use the spread operator (...) to open up possibilities—just like toppings on a waffle!
     </div>
 
-
-    <a href="index.html" class="link-btn">Make Your Own Waffle!</a>
+    <a href="./index.html" class="action-button">Make Your Own Waffle!</a>
   </div>
 
-  <script src="abt.js"></script>
+
+  <script src="./scripts.js"></script>
 </body>
 
 </html>

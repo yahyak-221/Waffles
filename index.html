@@ -2,88 +2,76 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Build Your Own Waffle!</title>
-    <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Build Your Own Waffle! - Waffle World 🧇</title>
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="shortcut icon" href="./assets/waffle-favicon.png" type="image/x-icon" />
 </head>
 
 <body>
-    <nav class="nv">
-        <div class="nv-l">🧇 WaffleZone</div>
-        <ul class="nv-r">
-            <li><a href="index.html" class="lnk">Build Yours</a></li>
-            <li><a href="about.html" class="lnk">About Waffles</a></li>
-        </ul>
-    </nav>
-    <div class="wrap">
-        <h1>😋 Build Your Own Waffle! 😋</h1>
-
-        <h2>Choose Your Fillings (Max 2)</h2>
-        <div id="f" class="grid">
-            <div class="i" data-item="ccs" data-type="f"><img
-                    src="https://rukminim2.flixcart.com/image/850/1000/kcgk1ow0/baking-ingredient/v/u/g/750-dark-chocolate-chips-choco-chipps-choco-chips-pramix-original-imaftk7yvufzhndb.jpeg?q=90&crop=false"><span>Chocolate
-                    Chips</span></div>
-            <div class="i" data-item="bb" data-type="f"><img
-                    src="https://zamaorganics.com/cdn/shop/files/Untitleddesign_10_5c05d76a-d244-405b-8702-6fe274f2eb1f_11zon.png?v=1701850639&width=1080"><span>Blueberries</span>
-            </div>
-            <div class="i" data-item="bs" data-type="f"><img
-                    src="https://www.allrecipes.com/thmb/lc7nSL9L5zMHXz9t6PMAVm9biNM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ar-new-banana-adobe-ar-2x1-917fdde58d194b529b41042ebff1c031.jpg"><span>Banana
-                    Slices</span></div>
-            <div class="i" data-item="pb" data-type="f"><img
-                    src="https://m.media-amazon.com/images/I/71Oo1hV4GsL._AC_UF1000,1000_QL80_.jpg"><span>Peanut
-                    Butter</span></div>
-            <div class="i" data-item="cc" data-type="f"><img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbXrG9DiS3RAYOl7fM-Z-bO77WotW98JVlnw&s"><span>Cream
-                    Cheese</span></div>
-            <div class="i" data-item="dd" data-type="f"><img
-                    src="https://www.nestleprofessional.in/sites/default/files/2022-07/Dulce-De-Leche-420x330.webp"><span>Dulce
-                    de Leche</span></div>
-        </div>
-
-        <h2>Choose Your Toppings (Max 3)</h2>
-        <div id="t" class="grid">
-            <div class="i" data-item="wc" data-type="t"><img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBgmrHxs4IK_-0vUrGnsSOp6eiShHjV7rx7Q&s"><span>Whipped
-                    Cream</span></div>
-            <div class="i" data-item="cs" data-type="t"><img
-                    src="https://www.allrecipes.com/thmb/lgFmH2OfQhRZW2eM04pZbCUjCbk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-210084-homemade-chocolate-syrup-DDMFS-2x1-hero-e08eb67db6784ee4a8210ae2bf0d5dff.jpg"><span>Chocolate
-                    Syrup</span></div>
-            <div class="i" data-item="ms" data-type="t"><img
-                    src="https://images.immediate.co.uk/production/volatile/sites/30/2021/11/maple-syrup44-d7dd3a0.jpg"><span>Maple
-                    Syrup</span></div>
-            <div class="i" data-item="ps" data-type="t"><img
-                    src="https://cdn.loveandlemons.com/wp-content/uploads/2021/02/what-is-powdered-sugar.jpg"><span>Powdered
-                    Sugar</span></div>
-            <div class="i" data-item="st" data-type="t"><img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAm5cXmmHcKfjP_P4L3zsl5kiG3ujMqQHrPg&s"><span>Strawberries</span>
-            </div>
-            <div class="i" data-item="sp" data-type="t"><img
-                    src="https://m.media-amazon.com/images/I/51TduV9uCRL._UF1000,1000_QL80_.jpg"><span>Sprinkles</span>
-            </div>
-        </div>
-
-        <div class="prev">
-            <h2>Your Custom Waffle</h2>
-            <div class="stack">
-                <img id="wb"
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzJTI1amz0JMCtOnNhLW2DGug3ef2wpo_Bjg&s"
-                    alt="Waffle Base">
-            </div>
-            <button id="b">Build My Waffle!</button>
-
-            <div id="o" class="out">
-                <h3>Your Delicious Waffle! 🎉</h3>
-                <p>Here's what you've cooked up:</p>
-                <ul id="l">
-                    <li>Waffle Base</li>
+        <nav class="navbar">
+                <div class="navbar-title">Waffle World</div>
+                <ul class="navbar-links">
+                        <li><a href="./index.html" class="nav-link">Build Yours</a></li>
+                        <li><a href="./about.html" class="nav-link">About Waffles</a></li>
                 </ul>
-            </div>
-        </div>
-    </div>
+        </nav>
 
-    <audio id="sfx" src="happy-outro-8110.mp3" preload="auto"></audio>
-    <script src="script.js"></script>
+        <div class="builder-container">
+                <h1>🧇 Build Your Own Waffle! 🧇</h1>
+
+                <h2>Choose Your Fillings (Max 2)</h2>
+                <div id="f" class="item-grid">
+                        <div class="item-card" data-item="ccs" data-type="f"><img
+                                        src="./assets/filings/CH.jpg" /><span>Chocolate Chips</span></div>
+                        <div class="item-card" data-item="bb" data-type="f"><img
+                                        src="./assets/filings/BB.jpg" /><span>Blueberries</span></div>
+                        <div class="item-card" data-item="bs" data-type="f"><img
+                                        src="./assets/filings/BL.jpg" /><span>Banana Slices</span></div>
+                        <div class="item-card" data-item="pb" data-type="f"><img
+                                        src="./assets/filings/PT.jpg" /><span>Peanut Butter</span></div>
+                        <div class="item-card" data-item="cc" data-type="f"><img
+                                        src="./assets/filings/CC.jpg" /><span>Cream Cheese</span></div>
+                        <div class="item-card" data-item="dd" data-type="f"><img
+                                        src="./assets/filings/NT.jpg" /><span>Nutella Dip</span></div>
+                </div>
+
+                <h2>Choose Your Toppings (Max 3)</h2>
+                <div id="t" class="item-grid">
+                        <div class="item-card" data-item="wc" data-type="t"><img
+                                        src="./assets/topping/WC.jpg" /><span>Whipped Cream</span></div>
+                        <div class="item-card" data-item="cs" data-type="t"><img
+                                        src="./assets/topping/CS.jpg" /><span>Chocolate Syrup</span></div>
+                        <div class="item-card" data-item="ms" data-type="t"><img
+                                        src="./assets/topping/MS.jpg" /><span>Maple Syrup</span></div>
+                        <div class="item-card" data-item="ps" data-type="t"><img
+                                        src="./assets/topping/PS.jpg" /><span>Powdered Sugar</span></div>
+                        <div class="item-card" data-item="st" data-type="t"><img
+                                        src="./assets/topping/S.jpeg" /><span>Strawberries</span></div>
+                        <div class="item-card" data-item="sp" data-type="t"><img
+                                        src="./assets/topping/SP.jpg" /><span>Sprinkles</span></div>
+                </div>
+
+                <div class="preview-section">
+                        <h2>Your Custom Waffle</h2>
+                        <div class="waffle-preview">
+                                <img id="wb" src="./assets/waffles.png" alt="Waffle Base" />
+                        </div>
+                        <button id="build-btn">Build My Waffle!</button>
+
+                        <div id="order-summary" class="order-summary">
+                                <h3>Your Delicious Waffle! 😼</h3>
+                                <p>Here's what you've cooked up:</p>
+                                <ul class="waffle-list" id="l">
+                                        <li>Waffle Base</li>
+                                </ul>
+                        </div>
+                </div>
+        </div>
+
+        <audio id="sfx" src="./outro.mp3" preload="auto"></audio>
+        <script src="./script.js"></script>
 </body>
 
 </html>
